@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- <link rel="icon" href="asset/img/icon.jpg"> -->
+  <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <title>Mayday</title>
+</head>
+<body>
+  <div class="container">
+    <!-- nav -->
+    <nav class="navbar navbar-default navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="./" class="navbar-brand">五月天</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about">关于</a></li>
+            <li><a href="#career">历程</a></li>
+            <li class="dropdown">
+              <a href="#member" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">成员 <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#ashin">阿信</a></li>
+                <li><a href="#monster">怪兽</a></li>
+                <li><a href="#stone">石头</a></li>
+                <li><a href="#ming">冠佑</a></li>
+                <li><a href="#masa">玛莎</a></li>
+              </ul>
+            </li>
+            <li><a href="#album">专辑</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- nav ends -->
+    <!-- carousel -->
+    <div class="carousel slide" id="carousel-1" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-1" data-slide-to="1"></li>
+        <li data-target="#carousel-1" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner" role="listbox">
+        <div class="item active"><img src=${ require("./asset/img/mayday3.jpg") } alt="mayday"></div>
+        <div class="item"><img src=${ require("./asset/img/mayday1.jpg") } alt="mayday"></div>
+        <div class="item"><img src=${ require("./asset/img/mayday2.jpg") } alt="mayday"></div>
+      </div>
+
+      <a href="#carousel-1" class="left carousel-control" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a href="#carousel-1" class="right carousel-control" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!-- carousel ends -->
+    <!-- about -->
+    <h2 class="text-primary" id="about">关于</h2>
+    <div class="container">
+      <p>五月天（英语：MayDay），台湾乐团，成员共有五人，由主唱阿信、团长暨吉他手怪兽、贝斯手玛莎、吉他手石头和鼓手冠佑组成；除了冠佑以外，
+        其余四人皆毕业自台北市国立师大附中。前身为“So Band”乐团，于1997年3月29日改为现名，其名称是来自玛莎在BBS上的代号“May-day”。
+      </p>
+      <p>由五个大男孩所组成的五月天，一反一般摇滚乐团给人的粗野印象，呈现出清新健康的青春活力</p>
+    </div>
+    <!-- about end -->
+    <!-- panel -->
+    <div class="panel panel-info" id="career">
+      <div class="panel-heading">乐团历程</div>
+      <div class="panel-body">
+        <ul>
+          <li>1995年-97年：So Band</li>
+          <li>1998年-99年：地下道主流</li>
+          <li>1999年-2001年：《爱情万岁》与《人生海海》</li>
+          <li>2001年-05年：退伍复出后到《知足》</li>
+          <li>2006年-07年：《为爱而生》专辑与“离开地球表面演唱会”</li>
+          <li>2008年：《后青春期的诗》与"十万人出头天"重返中山足球场</li>
+          <li>2009年-10年：第三座“最佳乐团奖”与“D.N.A”演唱会</li>
+          <li>2011年：作品八号“第二人生”和“追梦3DNA演唱会”</li>
+          <li>2012年：六座金曲奖与专辑十白金殊荣</li>
+          <li>2013年：第二部电影“诺亚方舟”</li>
+          <li>2014年：麦迪逊花园广场开场</li>
+          <li>2015年：登日本武道馆</li>
+          <li>2016年：作品九号“自传”</li>
+          <li>2017年：“人生无限公司”巡回、成军20周年</li>
+        </ul>
+      </div>
+    </div>
+    <!-- panel ends -->
+    <!-- members -->
+    <h2 class="text-primary">团队成员</h2>
+    <div class="media" id="ashin">
+      <div class="media-left">
+        <a href="https://zh.wikipedia.org/wiki/%E9%99%B3%E4%BF%A1%E5%AE%8F"><img src=${ require('./asset/img/profile-ashin.jpeg') } alt="ashin"></a>
+      </div>
+      <div class="media-body">
+        <h4 class="media-heading">
+          阿信
+        </h4>
+        原名陈信宏，五月天的主唱、知名词曲创作者、相信音乐股东之一。出生于台湾台北市北投区，毕业于国立师大附中美术班，实践大学室内设计学系肄业。
+        潮流服饰品牌<strong>StayReal</strong>创始人及设计者之一。
+      </div>
+    </div>
+    <div class="media" id="masa">
+      <div class="media-left">
+        <a href="https://zh.wikipedia.org/wiki/%E8%94%A1%E6%98%87%E6%99%8F"><img src=${ require('./asset/img/profile-masa.jpeg') } alt="masa"></a>
+      </div>
+      <div class="media-body">
+        <h4 class="media-heading">
+          玛莎
+        </h4>
+        原名蔡昇晏，五月天的贝斯手、相信音乐股东之一。出生于台湾高雄市，毕业于师大附中，辅仁大学社会系肄业。任陶晶莹经营网站《姊妹淘》之专栏作家。
+      </div>
+    </div>
+    <div class="media" id="ming">
+      <div class="media-left">
+        <a href="https://zh.wikipedia.org/wiki/%E5%8A%89%E5%86%A0%E4%BD%91"><img src=${ require('./asset/img/profile-ming.jpeg') } alt="ming"></a>
+      </div>
+      <div class="media-body">
+        <h4 class="media-heading">
+          冠佑
+        </h4>
+        原名劉冠佑/諺明，五月天的鼓手、相信音乐股东之一。出生于台湾苗栗市，毕业于国光艺校(现已改名国立台湾戏曲学院)。
+      </div>
+    </div>
+    <div class="media" id="monster">
+      <div class="media-left">
+        <a href="https://zh.wikipedia.org/wiki/%E6%BA%AB%E5%B0%9A%E7%BF%8A"><img src=${ require('./asset/img/profile-monster.jpeg') } alt="monster"></a>
+      </div>
+      <div class="media-body">
+        <h4 class="media-heading">
+          怪兽
+        </h4>
+        原名温尚翊，五月天团长兼吉他手、相信音乐股东之一。出生于台湾新竹市，毕业于师大附中，国立台湾大学社会系肄业。
+      </div>
+    </div>
+    <div class="media" id="stone">
+      <div class="media-left">
+        <a href="https://zh.wikipedia.org/wiki/%E7%9F%B3%E9%8C%A6%E8%88%AA"><img src=${ require('./asset/img/profile-stone.jpeg') } alt="stone"></a>
+      </div>
+      <div class="media-body">
+        <h4 class="media-heading">
+          石头
+        </h4>
+        原名石锦航，五月天的吉他手、相信音乐股东之一。出生与台湾台北市，毕业于师大附中，淡江大学水环系肄业。
+      </div>
+    </div>
+    <!-- members ends -->
+    <!-- album -->
+    <h2 class="text-primary" id="album">精选专辑</h2>
+    <div class="row">
+      <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+          <img src=${ require('./asset/img/album1.jpeg') } alt="album1">
+          <div class="caption">
+            <h4>自传</h4>
+            <p><a href="javascript:;" class="btn btn-primary" role="button" data-toggle="modal" data-target="#album-modal-1">查看歌曲 <span class="badge">15</span></a></p>
+            <div class="modal fade" id="album-modal-1"  role="dialog" aria-labelledby="modalLabel-1">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                      <span aria="hidden=true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="modalLabel-1">自传</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>如果我们不曾相遇</p>
+                    <p>成名在望</p>
+                    <p>好好（想把你写成一首歌）</p>
+                    <p>兄弟</p>
+                    <p>人生有限公司</p>
+                    <p>后来的我们</p>
+                    <p>顽固</p>
+                    <p>派对动物</p>
+                    <p>最好的一天</p>
+                    <p>少年他的奇幻漂流</p>
+                    <p>终于结束的起点</p>
+                    <p>任意门</p>
+                    <p>转眼</p>
+                    <p>What's your story</p>
+                    <p>你说那C和弦就是...</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+          <img src=${ require('./asset/img/album2.jpeg') } alt="album2">
+          <div class="caption">
+            <h4>神的孩子都在跳舞</h4>
+            <p><a href="javascript:;" class="btn btn-primary" role="button" data-toggle="modal" data-target="#album-modal-2">查看歌曲 <span class="badge">13</span></a></p>
+            <div class="modal fade" id="album-modal-2"  role="dialog" aria-labelledby="modalLabel-2">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                      <span aria="hidden=true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="modalLabel-2">神的孩子都在跳舞</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>孙悟空</p>
+                    <p>倔强</p>
+                    <p>垃圾车</p>
+                    <p>小护士</p>
+                    <p>让我照顾你</p>
+                    <p>约翰蓝侬</p>
+                    <p>回来吧</p>
+                    <p>错错错</p>
+                    <p>晚安地球人</p>
+                    <p>超人</p>
+                    <p>神的孩子都在跳舞</p>
+                    <p>圣诞夜惊魂</p>
+                    <p>垃圾车（朋友版）</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+          <img src=${ require('./asset/img/album3.jpeg') } alt="album3">
+          <div class="caption">
+            <h4>人生海海</h4>
+            <p><a href="javascript:;" class="btn btn-primary" role="button" data-toggle="modal" data-target="#album-modal-3">查看歌曲 <span class="badge">12</span></a></p>
+            <div class="modal fade" id="album-modal-3"  role="dialog" aria-labelledby="modalLabel-3">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                      <span aria="hidden=true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="modalLabel-3">人生海海</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>一颗苹果</p>
+                    <p>能不能不要说</p>
+                    <p>好不好</p>
+                    <p>相信</p>
+                    <p>OK啦</p>
+                    <p>借问众神明</p>
+                    <p>永远的永远</p>
+                    <p>彩虹</p>
+                    <p>啾啾啾</p>
+                    <p>纯真</p>
+                    <p>候鸟</p>
+                    <p>人生海海</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+          <img src=${ require('./asset/img/album4.jpeg') } alt="album4">
+          <div class="caption">
+            <h4>第二人生</h4>
+            <p><a href="javascript:;" class="btn btn-primary" role="button" data-toggle="modal" data-target="#album-modal-4">查看歌曲 <span class="badge">13</span></a></p>
+            <div class="modal fade" id="album-modal-4"  role="dialog" aria-labelledby="modalLabel-4">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                      <span aria="hidden=true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="modalLabel-4">第二人生</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>2012</p>
+                    <p>仓颉</p>
+                    <p>洗衣机</p>
+                    <p>歪腰</p>
+                    <p>干杯</p>
+                    <p>我不愿让你一个人</p>
+                    <p>星空</p>
+                    <p>三个傻瓜</p>
+                    <p>末日</p>
+                    <p>OAOA</p>
+                    <p>第二人生</p>
+                    <p>诺亚方舟</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+          <img src=${ require('./asset/img/album5.jpeg') } alt="album5">
+          <div class="caption">
+            <h4>后青春期的诗</h4>
+            <p><a href="javascript:;" class="btn btn-primary" role="button" data-toggle="modal" data-target="#album-modal-5">查看歌曲 <span class="badge">12</span></a></p>
+            <div class="modal fade" id="album-modal-5"  role="dialog" aria-labelledby="modalLabel-5">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                      <span aria="hidden=true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="modalLabel-5">后青春期的诗</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>突然好想你</p>
+                    <p>生存以上 生活以下</p>
+                    <p>你不是真正的快乐</p>
+                    <p>爆肝</p>
+                    <p>噢买尬</p>
+                    <p>出头天</p>
+                    <p>我心中尚未崩坏的地方</p>
+                    <p>春天的呐喊</p>
+                    <p>夜访吸血鬼</p>
+                    <p>如烟</p>
+                    <p>后青春期的诗</p>
+                    <p>笑忘歌</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+          <img src=${ require('./asset/img/album6.jpeg') } alt="album6">
+          <div class="caption">
+            <h4>时光机</h4>
+            <p><a href="javascript:;" class="btn btn-primary" role="button" data-toggle="modal" data-target="#album-modal-6">查看歌曲 <span class="badge">15</span></a></p>
+            <div class="modal fade" id="album-modal-6"  role="dialog" aria-labelledby="modalLabel-6">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                      <span aria="hidden=true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="modalLabel-6">时光机</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>轻功</p>
+                    <p>恒星的恒心</p>
+                    <p>雌雄同体</p>
+                    <p>阿姆斯壮</p>
+                    <p>而我知道</p>
+                    <p>赌神</p>
+                    <p>别惹我</p>
+                    <p>九号球</p>
+                    <p>武装</p>
+                    <p>时光机</p>
+                    <p>我们</p>
+                    <p>在这一秒</p>
+                    <p>生命有一种绝对</p>
+                    <p>王子面</p>
+                    <p>小时候</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+          <img src=${ require('./asset/img/album7.jpeg') } alt="album7">
+          <div class="caption">
+            <h4>为爱而生</h4>
+            <p><a href="javascript:;" class="btn btn-primary" role="button" data-toggle="modal" data-target="#album-modal-7">查看歌曲 <span class="badge">13</span></a></p>
+            <div class="modal fade" id="album-modal-7"  role="dialog" aria-labelledby="modalLabel-7">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                      <span aria="hidden=true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="modalLabel-7">为爱而生</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>前传</p>
+                    <p>为爱而生</p>
+                    <p>天使</p>
+                    <p>我又初恋了</p>
+                    <p>香水</p>
+                    <p>摩托车日记</p>
+                    <p>最重要的小事</p>
+                    <p>快乐很伟大</p>
+                    <p>忘词</p>
+                    <p>宠上天</p>
+                    <p>米老鼠</p>
+                    <p>一千个世纪</p>
+                    <p>胎音</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+          <img src=${ require('./asset/img/album8.jpeg') } alt="album8">
+          <div class="caption">
+            <h4>爱情万岁</h4>
+            <p><a href="javascript:;" class="btn btn-primary" role="button" data-toggle="modal" data-target="#album-modal-8">查看歌曲 <span class="badge">12</span></a></p>
+            <div class="modal fade" id="album-modal-8"  role="dialog" aria-labelledby="modalLabel-8">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                      <span aria="hidden=true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="modalLabel-8">爱情万岁</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>为什么</p>
+                    <p>终结孤单</p>
+                    <p>明白</p>
+                    <p>心中无别人</p>
+                    <p>有你的将来</p>
+                    <p>憨人</p>
+                    <p>叫我第一名</p>
+                    <p>雨眠</p>
+                    <p>罗密欧与朱丽叶</p>
+                    <p>温柔</p>
+                    <p>爱情万岁</p>
+                    <p>反而</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- album ends -->
+    <footer class="footer">
+      <ol class="breadcrumb">
+        友情链接：
+        <li><a href="https://zh.wikipedia.org/wiki/%E4%BA%94%E6%9C%88%E5%A4%A9">五月天(维基百科)</a></li>
+        <li><a href="http://baike.baidu.com/item/%E4%BA%94%E6%9C%88%E5%A4%A9/17011">五月天(百度百科)</a></li>
+        <li><a href="http://weibo.com/mayday">五月天官方微博</a></li>
+        <li><a href="http://weibo.com/musiq">阿信微博</a></li>
+        <li><a href="http://cn.istayreal.com/">StayReal官网</a></li>
+        <li><a href="https://www.facebook.com/IsMayDay/">五月天官方Facebook</a></li>
+      </ol>
+      <p>
+        Copyright &nbsp;&copy;&nbsp; 2017<br>
+        Powered by Bootstrap, made by <a href="http://www.qianpengfei.com">Pengfei Qian</a>
+      </p>
+    </footer>
+  </div>
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
